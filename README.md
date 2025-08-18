@@ -1,7 +1,7 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 18 August 2025 at 20:26:04
-## Price Now: $3,343.56
+## Last updated: 18 August 2025 at 21:49:39
+## Price Now: $3,335.07
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
 XAUUSD recommendation scanner based on real-time TradingView data Scanner API
@@ -68,7 +68,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Technical Indicators
 | RSI | Stoch.K | Stoch.D | CCI20 | ADX | ADX-DI | AO | Mom | MACD | MACD | W.R | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 48.83 | 58.68 | 62.67 | -5.44 | 16.56 | 19.00 | 4.06 | -3.66 | 1.18 | 1.29 | -47.37 | 3343.77 |
+| 40.55 | 33.94 | 49.56 | -85.65 | 17.31 | 24.73 | 1.05 | -22.56 | -0.16 | 0.92 | -90.41 | 3337.68 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 3345.85 | 3348.32 | 3344.86 | 3343.51 | 3344.43 | 3342.73 | 3345.16 | 3342.27 | 3349.19 | 3348.27 | 3353.75 | 3362.34 |
+| 3342.90 | 3345.40 | 3343.35 | 3343.12 | 3343.42 | 3342.12 | 3344.51 | 3341.74 | 3348.78 | 3348.10 | 3353.50 | 3362.08 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
