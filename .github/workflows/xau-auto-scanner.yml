@@ -1,0 +1,46 @@
+name: XAU Auto Scanner
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 */1 * * *"   # Run every 1 hour
+  workflow_dispatch:         # Allow manual trigger
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Fetch XAUUSD Market Scanner Data
+      run: |
+        node index.js || echo "⚠️ Failed to fetch scanner data"
+
+    - name: Update README timestamp
+      run: |
+        d=$(date '+%Y-%m-%dT%H:%M:%SZ')
+        sed -i "s/Last Update:.*/Last Update: ${d}/" README.md
+
+    - name: Commit and push if changes
+      uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: "📈 Auto update XAU scanner data"
+        branch: main
