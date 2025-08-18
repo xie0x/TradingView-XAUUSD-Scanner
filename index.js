@@ -39,11 +39,18 @@ const formattedDate = now.toLocaleString("en-GB", {
   second: "2-digit"
 });
 
+const usdFormatter = new Intl.NumberFormat("en-US", {
+  style: "currency",
+  currency: "USD",
+  minimumFractionDigits: 2,
+})
+
 const formatReadme = (data) => {
   const formattedReadme = []
   formattedReadme.push('# TradingView XAUUSD Scanner (1H)')
   formattedReadme.push('![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)')
   formattedReadme.push('## Last updated: ' + formattedDate)
+  formattedReadme.push('## Price Now: ' + usdFormatter.format(data['close|60']))
   formattedReadme.push('![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)')
   formattedReadme.push('<h2 id="about-the-project"> :pencil: About Project</h2>')
   formattedReadme.push('XAUUSD recommendation scanner based on real-time TradingView data Scanner API')
