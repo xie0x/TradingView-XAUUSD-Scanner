@@ -55,7 +55,7 @@ const formatReadme = (data) => {
   const formattedReadme = []
   formattedReadme.push('# TradingView XAUUSD Scanner (1H)')
   formattedReadme.push('![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)')
-  formattedReadme.push('## Last updated: ' + formattedDate)
+  formattedReadme.push('## Last updated: ' + formattedDate + ' (GMT+7)')
   formattedReadme.push('## Price Now: ' + usdFormatter.format(data['close|60']))
   formattedReadme.push('![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)')
   formattedReadme.push('<h2 id="about-the-project"> :pencil: About Project</h2>')
@@ -134,11 +134,27 @@ const main = async () => {
     const { data } = await axios.get(
       `https://scanner.tradingview.com/symbol?symbol=${symbol}&fields=60,RSI|60,RSI[1]|60,Stoch.K|60,Stoch.D|60,Stoch.K[1]|60,Stoch.D[1]|60,CCI20|60,CCI20[1]|60,ADX|60,ADX+DI|60,ADX-DI|60,ADX+DI[1]|60,ADX-DI[1]|60,AO|60,AO[1]|60,AO[2]|60,Mom|60,Mom[1]|60,MACD.macd|60,MACD.signal|60,Rec.Stoch.RSI|60,Stoch.RSI.K|60,Rec.WR|60,W.R|60,Rec.BBPower|60,BBPower|60,Rec.UO|60,UO|60,EMA10|60,close|60,SMA10|60,EMA20|60,SMA20|60,EMA30|60,SMA30|60,EMA50|60,SMA50|60,EMA100|60,SMA100|60,EMA200|60,SMA200|60,Rec.Ichimoku|60,Ichimoku.BLine|60,Rec.VWMA|60,VWMA|60,Rec.HullMA9|60,HullMA9|60,Pivot.M.Classic.S3|60,Pivot.M.Classic.S2|60,Pivot.M.Classic.S1|60,Pivot.M.Classic.Middle|60,Pivot.M.Classic.R1|60,Pivot.M.Classic.R2|60,Pivot.M.Classic.R3|60,Pivot.M.Fibonacci.S3|60,Pivot.M.Fibonacci.S2|60,Pivot.M.Fibonacci.S1|60,Pivot.M.Fibonacci.Middle|60,Pivot.M.Fibonacci.R1|60,Pivot.M.Fibonacci.R2|60,Pivot.M.Fibonacci.R3|60,Pivot.M.Camarilla.S3|60,Pivot.M.Camarilla.S2|60,Pivot.M.Camarilla.S1|60,Pivot.M.Camarilla.Middle|60,Pivot.M.Camarilla.R1|60,Pivot.M.Camarilla.R2|60,Pivot.M.Camarilla.R3|60,Pivot.M.Woodie.S3|60,Pivot.M.Woodie.S2|60,Pivot.M.Woodie.S1|60,Pivot.M.Woodie.Middle|60,Pivot.M.Woodie.R1|60,Pivot.M.Woodie.R2|60,Pivot.M.Woodie.R3|60,Pivot.M.Demark.S1|60,Pivot.M.Demark.Middle|60,Pivot.M.Demark.R1|60,Pivot.M.HighLow.S3|60,Pivot.M.HighLow.S2|60,Pivot.M.HighLow.S1|60,Pivot.M.HighLow.Middle|60,Pivot.M.HighLow.R1|60,Pivot.M.HighLow.R2|60,Pivot.M.HighLow.R3&no_404=true`
     )
-    
+
+    const formattedDate = new Date().toISOString()
+
     await fs.writeJson('dataxau.json', { updated: formattedDate, data }, { spaces: 2 })
-    
+
+    const historyFile = 'xauprice_history.json'
+    let history = []
+    if (await fs.pathExists(historyFile)) {
+      history = await fs.readJson(historyFile)
+    }
+
+    history.push({
+      time: formattedDate,
+      price: usdFormatter.format(data['close|60']) || null,
+    })
+
+    await fs.writeJson(historyFile, history, { spaces: 2 })
+
     const formattedReadme = formatReadme(data)
     await fs.writeFileSync('README.md', formattedReadme.join('\n'))
+    
   } catch (err) {
     console.error(err)
     throw new Error('Failed to fetch data from TradingView API')
