@@ -1,7 +1,7 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 27 August 2025 at 22:36:38 (GMT+7)
-## Price Now: $3,387.66
+## Last updated: 27 August 2025 at 23:47:40 (GMT+7)
+## Price Now: $3,395.25
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
 XAUUSD recommendation scanner based on real-time TradingView data Scanner API
@@ -68,7 +68,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Technical Indicators
 | RSI | Stoch.K | Stoch.D | CCI20 | ADX | ADX-DI | AO | Mom | MACD | MACD | W.R | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $57.66 | $61.01 | $43.81 | $64.62 | $12.62 | $17.73 | $0.05 | $10.34 | $1.11 | $1.04 | -$16.66 | $3,384.61 |
+| $63.69 | $87.11 | $64.92 | $128.35 | $13.53 | $16.17 | $2.75 | $17.82 | $2.12 | $1.26 | -$3.35 | $3,390.42 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,382.08 | $3,380.75 | $3,381.45 | $3,383.31 | $3,380.26 | $3,381.76 | $3,376.57 | $3,377.89 | $3,367.51 | $3,363.46 | $3,359.45 | $3,350.00 |
+| $3,384.54 | $3,382.58 | $3,382.80 | $3,383.61 | $3,381.26 | $3,382.54 | $3,377.32 | $3,378.52 | $3,368.07 | $3,364.02 | $3,359.81 | $3,350.29 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
