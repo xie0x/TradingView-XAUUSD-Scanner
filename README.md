@@ -1,7 +1,7 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 3 September 2025 at 21:39:18 (GMT+7)
-## Price Now: $3,561.99
+## Last updated: 3 September 2025 at 22:35:06 (GMT+7)
+## Price Now: $3,565.83
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
 XAUUSD recommendation scanner based on real-time TradingView data Scanner API
@@ -68,7 +68,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Technical Indicators
 | RSI | Stoch.K | Stoch.D | CCI20 | ADX | ADX-DI | AO | Mom | MACD | MACD | W.R | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $74.15 | $88.38 | $87.19 | $254.06 | $53.25 | $6.90 | $28.70 | $25.00 | $13.21 | $12.55 | -$9.77 | $3,558.76 |
+| $75.64 | $85.34 | $86.52 | $220.09 | $54.28 | $6.42 | $31.84 | $35.72 | $13.78 | $12.75 | -$4.17 | $3,563.27 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,545.73 | $3,542.83 | $3,536.02 | $3,538.06 | $3,526.88 | $3,525.05 | $3,510.09 | $3,507.29 | $3,477.04 | $3,467.34 | $3,437.59 | $3,418.67 |
+| $3,548.87 | $3,546.05 | $3,538.55 | $3,539.76 | $3,529.18 | $3,527.87 | $3,512.14 | $3,509.15 | $3,478.73 | $3,469.07 | $3,438.83 | $3,419.79 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
