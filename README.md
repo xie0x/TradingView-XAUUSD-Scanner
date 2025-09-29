@@ -1,7 +1,7 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 29 September 2025 at 23:23:03 (GMT+7)
-## Price Now: $3,830.84
+## Last updated: 30 September 2025 at 00:19:43 (GMT+7)
+## Price Now: $3,827.15
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
 XAUUSD recommendation scanner based on real-time TradingView data Scanner API
@@ -68,7 +68,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Technical Indicators
 | RSI | Stoch.K | Stoch.D | CCI20 | ADX | ADX-DI | AO | Mom | MACD | MACD | W.R | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $65.19 | $94.38 | $90.26 | $99.77 | $37.46 | $8.50 | $38.47 | $13.43 | $16.50 | $15.52 | -$6.79 | $3,831.32 |
+| $62.99 | $90.45 | $92.07 | $87.97 | $37.47 | $9.55 | $37.71 | $20.91 | $16.02 | $15.61 | -$15.84 | $3,832.15 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,820.24 | $3,820.45 | $3,807.49 | $3,804.57 | $3,797.38 | $3,792.04 | $3,783.96 | $3,772.85 | $3,763.63 | $3,765.56 | $3,731.50 | $3,724.88 |
+| $3,821.44 | $3,822.50 | $3,809.33 | $3,807.91 | $3,799.28 | $3,794.77 | $3,785.64 | $3,774.71 | $3,764.88 | $3,765.98 | $3,732.45 | $3,725.61 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
