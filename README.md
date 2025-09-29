@@ -1,7 +1,7 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 30 September 2025 at 03:21:47 (GMT+7)
-## Price Now: $3,829.09
+## Last updated: 30 September 2025 at 04:18:48 (GMT+7)
+## Price Now: $3,833.88
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
 XAUUSD recommendation scanner based on real-time TradingView data Scanner API
@@ -68,7 +68,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Technical Indicators
 | RSI | Stoch.K | Stoch.D | CCI20 | ADX | ADX-DI | AO | Mom | MACD | MACD | W.R | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $63.08 | $79.72 | $81.69 | $85.15 | $35.88 | $10.21 | $33.18 | $11.03 | $14.45 | $15.26 | -$15.94 | $3,828.35 |
+| $64.94 | $84.55 | $83.30 | $100.99 | $36.28 | $9.95 | $33.52 | $15.83 | $14.83 | $15.34 | -$1.43 | $3,829.79 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,824.49 | $3,826.48 | $3,814.20 | $3,815.89 | $3,804.50 | $3,802.15 | $3,790.44 | $3,780.36 | $3,768.56 | $3,767.31 | $3,735.28 | $3,727.81 |
+| $3,825.36 | $3,826.96 | $3,814.66 | $3,816.13 | $3,804.81 | $3,802.31 | $3,790.63 | $3,780.46 | $3,768.66 | $3,767.35 | $3,735.33 | $3,727.83 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
