@@ -1,7 +1,7 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 6 October 2025 at 04:18:12 (GMT+7)
-## Price Now: $3,886.46
+## Last updated: 6 October 2025 at 05:19:11 (GMT+7)
+## Price Now: $3,891.63
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
 XAUUSD recommendation scanner based on real-time TradingView data Scanner API
@@ -12,7 +12,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Recommendation
 | Stoch | WR | BBPower | UO | Ichimoku | RSI | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Neutral | Neutral | Neutral | Neutral | Neutral | Sell | Sell |
+| Neutral | Neutral | Neutral | Neutral | Neutral | Sell | Buy |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -28,7 +28,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Pivot Points Classic
 | S3 | S2 | S1 | Middle | R1 | R2 | R3 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,529.47 | $3,637.18 | $3,698.52 | $3,744.89 | $3,806.23 | $3,852.60 | $3,960.31 |
+| $3,581.65 | $3,715.33 | $3,800.89 | $3,849.01 | $3,934.57 | $3,982.69 | $4,116.37 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -36,7 +36,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Pivot Points Fibonacci
 | S3 | S2 | S1 | Middle | R1 | R2 | R3 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,637.18 | $3,678.32 | $3,703.74 | $3,744.89 | $3,786.03 | $3,811.45 | $3,852.60 |
+| $3,715.33 | $3,766.40 | $3,797.95 | $3,849.01 | $3,900.08 | $3,931.63 | $3,982.69 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -44,7 +44,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Pivot Points Camarilla
 | S3 | S2 | S1 | Middle | R1 | R2 | R3 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,730.23 | $3,740.11 | $3,749.98 | $3,744.89 | $3,769.73 | $3,779.60 | $3,789.48 |
+| $3,849.69 | $3,861.95 | $3,874.20 | $3,849.01 | $3,898.71 | $3,910.96 | $3,923.22 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -52,7 +52,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Pivot Points Woodie
 | S3 | S2 | S1 | Middle | R1 | R2 | R3 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,603.18 | $3,643.36 | $3,710.89 | $3,751.07 | $3,818.60 | $3,858.78 | $3,926.31 |
+| $3,690.81 | $3,727.13 | $3,824.50 | $3,860.81 | $3,958.18 | $3,994.49 | $4,091.86 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -60,7 +60,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Pivot Points Demark
 | S1 | Middle | R1 |
 | :---: | :---: | :---: |
-| $3,721.70 | $3,756.48 | $3,829.41 |
+| $3,824.95 | $3,861.04 | $3,958.63 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -68,7 +68,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Technical Indicators
 | RSI | Stoch.K | Stoch.D | CCI20 | ADX | ADX-DI | AO | Mom | MACD | MACD | W.R | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $62.42 | $86.44 | $85.20 | $93.49 | $16.64 | $16.13 | $20.47 | $20.53 | $7.29 | $5.19 | -$14.30 | $3,886.64 |
+| $65.36 | $88.52 | $86.53 | $103.06 | $17.21 | $15.11 | $20.95 | $29.48 | $7.76 | $5.70 | -$5.57 | $3,888.42 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $3,880.58 | $3,881.24 | $3,873.96 | $3,869.02 | $3,870.45 | $3,862.59 | $3,865.47 | $3,865.21 | $3,849.18 | $3,857.78 | $3,811.97 | $3,810.29 |
+| $3,882.59 | $3,884.19 | $3,875.64 | $3,870.67 | $3,871.81 | $3,864.31 | $3,866.50 | $3,865.83 | $3,850.02 | $3,858.49 | $3,812.77 | $3,810.98 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
