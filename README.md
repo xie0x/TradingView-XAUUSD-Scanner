@@ -1,6 +1,6 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 18 October 2025 at 18:16:56 (GMT+7)
+## Last updated: 18 October 2025 at 19:41:55 (GMT+7)
 ## Price Now: $4,253.98
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $4,254.93 | $4,250.47 | $4,274.33 | $4,299.53 | $4,276.62 | $4,303.32 | $4,263.14 | $4,271.67 | $4,213.09 | $4,210.82 | $4,127.97 | $4,111.30 |
+| $4,254.93 | $4,250.47 | $4,274.33 | $4,299.53 | $4,276.62 | $4,303.32 | $4,263.14 | $4,271.67 | $4,213.09 | $4,210.82 | $4,127.63 | $4,111.30 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
