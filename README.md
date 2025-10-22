@@ -1,7 +1,7 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 23 October 2025 at 00:20:46 (GMT+7)
-## Price Now: $4,053.76
+## Last updated: 23 October 2025 at 01:35:10 (GMT+7)
+## Price Now: $4,078.72
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
 XAUUSD recommendation scanner based on real-time TradingView data Scanner API
@@ -68,7 +68,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## Technical Indicators
 | RSI | Stoch.K | Stoch.D | CCI20 | ADX | ADX-DI | AO | Mom | MACD | MACD | W.R | HullMA9 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $40.42 | $25.89 | $21.67 | -$59.37 | $45.70 | $28.62 | -$81.14 | -$79.23 | -$39.45 | -$42.30 | -$71.64 | $4,046.39 |
+| $45.07 | $38.70 | $28.49 | -$13.98 | $43.84 | $27.38 | -$70.27 | $8.04 | -$34.30 | -$40.49 | -$55.05 | $4,068.49 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
@@ -76,7 +76,7 @@ XAUUSD recommendation scanner based on real-time TradingView data Scanner API
 ## EMA & SMA
 | EMA10 | SMA10 | EMA20 | SMA20 | EMA30 | SMA30 | EMA50 | SMA50 | EMA100 | SMA100 | EMA200 | SMA200 |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| $4,058.38 | $4,047.91 | $4,085.67 | $4,082.71 | $4,113.39 | $4,104.82 | $4,153.82 | $4,196.96 | $4,187.69 | $4,241.15 | $4,160.62 | $4,179.02 |
+| $4,064.49 | $4,050.33 | $4,086.40 | $4,081.28 | $4,112.13 | $4,099.53 | $4,151.49 | $4,192.22 | $4,185.85 | $4,239.67 | $4,159.97 | $4,179.61 |
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
