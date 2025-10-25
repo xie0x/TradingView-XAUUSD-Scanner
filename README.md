@@ -1,6 +1,6 @@
 # TradingView XAUUSD Scanner (1H)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-## Last updated: 26 October 2025 at 03:23:28 (GMT+7)
+## Last updated: 26 October 2025 at 04:19:05 (GMT+7)
 ## Price Now: $4,114.13
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 <h2 id="about-the-project"> :pencil: About Project</h2>
